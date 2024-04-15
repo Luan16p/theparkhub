@@ -1,0 +1,141 @@
+.hero {
+    background: url(../img/Bg.png) no-repeat center center;
+    background-size: cover;
+    height: 900px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 43px;
+}
+
+.navbar a, .navbar li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-content {
+    display: flex;
+    align-items: end;
+    font-family: "Lexend Deca", sans-serif
+}
+
+.logo-content h2, .logo-content h6 {
+    font-weight: 400;
+}
+
+.logo-content h2:nth-child(1), .logo-content h6 {
+    color: #fff;
+}
+
+.logo-content h2:nth-child(2) {
+    color: #A5A5A5;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-sign {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn-sign img {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-sign a {
+    background: #FF3D00;
+    color: #fff;
+    padding: 5px 16px 5px 16px;
+    border-radius: 32px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+}
+
+.hero-presents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 32px;
+    gap: 16px;
+    text-align: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-center {
+    display: flex;
+    align-items: end;
+    word-wrap: break-word;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.logo-center h2 {
+    font-size: 48px;
+    letter-spacing: 2.3px;
+}
+
+.logo-center h6 {
+    font-size: 24px;
+}
+
+.logo-center h2, .logo-center h6 {
+    font-weight: 300;
+}
+
+.logo-center h2:nth-child(1), .logo-center h6 {
+    color: #fff;
+}
+
+.logo-center h2:nth-child(2) {
+    color: #A5A5A5;
+}
+
+.slogan p {
+    font-size: 16px;
+    font-family: "Krona One", sans-serif;
+    color: #A5A5A5;
+}
+
+.btn-getstarted {
+    max-width:330px;
+    width: 90%;
+    height: 33px;
+    border-radius: 128px;
+    background: transparent;
+    border: 2px solid #cfcfcf;
+    color: #cfcfcf;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .3s;
+}
