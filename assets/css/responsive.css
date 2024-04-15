@@ -1,0 +1,22 @@
+@media screen and (max-width: 848px) {
+    .nav-links {
+        display: none;
+    }
+
+    .btn-sign {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    .navbar {
+        height: 100%;
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .logo-center h6 {
+        display: none;
+    }
+}
